@@ -20,14 +20,14 @@
 - `default_runtime.py`
 - WandbLoggerHook 추가
 
-## 1.4 Optimizer, Learning Schedule Settings
+## 1.4 Optimizer, Learning Scheduler Settings
 - `schedule_2x.py`
 - optimizer 수정
 - lr scheduler 수정 
 - epoch 설정 
 - Cosine Annealing, Adam, warmup 이용
 
-## 1.5 inal Config
+## 1.5 Final Config
 - `final_config.py`
 - Base Model의 backbone, neck 수정
 - evaluation 설정 : bbox_mAP_50 기준 best 모델 저장, 클래스별 validation AP 확인
